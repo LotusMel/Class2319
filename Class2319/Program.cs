@@ -8,6 +8,9 @@ namespace Class2319
         {
             Console.WriteLine("Hello World! CoderGirl is awesome!");
             Console.WriteLine("Tell me your name: ");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hi, " + name + "!");
+            Console.ReadLine();
         }
     }
 }
